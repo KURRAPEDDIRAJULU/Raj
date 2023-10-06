@@ -24,7 +24,7 @@
   
 
   .heading-1 {
-    color: #7b42ff;
+    color: #c76911;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
@@ -57,8 +57,8 @@
  
   
   .delete-btn {
-    background-color: #3f14da;
-    color: white;
+    background-color: #f2f2f5;
+    color: rgb(53, 48, 48);
     font-family: 'Roboto';
     font-size: 12px;
     border-radius: 8px;

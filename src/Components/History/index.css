@@ -1,4 +1,3 @@
-
 .browser-history-bg-container {
     min-height: 100vh;
     background-size: cover;
@@ -6,12 +5,11 @@
     flex-direction: column;
     align-items: center;
   }
-
   
-  .head-container {
+  .header-container {
     padding: 15px;
     width: 100%;
-    background-color: #d67433;
+    background-color: #3367d6;
   }
   
   .header {
@@ -19,7 +17,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    color: blue;
   }
   
   @media screen and (min-width: 768px) {
@@ -32,20 +29,21 @@
     display: flex;
     align-items: center;
     height: 40px;
+    border-radius: 5px;
   }
   
   .search-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #28a733;
+    background-color: red;
     height: 100%;
     padding: 10px;
     border: solid 1px #ececec;
   }
   
   .search-container {
-    background-color: white;
+    background-color: #acb8d1;
     height: 100%;
     display: flex;
     align-items: center;
@@ -56,11 +54,10 @@
   
   .search-input {
     width: 180px;
-    background-color: rgb(180, 206, 33);
+    background-color: white;
     border: none;
     outline: none;
-    color: #f00e0e;
-    padding: 10px;
+    color: #2b1d1d;
   }
   
   @media screen and (min-width: 768px) {
@@ -79,7 +76,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 6px 16px rgba(126, 133, 142, 0.16);
+    box-shadow: 10px 10px 10px 10px black;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 10px;
@@ -98,8 +95,66 @@
     color: #475569;
     margin-top: 20%;
   }
-
-  .history-container{
-    list-style: none;
-    
+  
+  .history {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .domain-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .history {
+      padding: 10px 20px 10px 20px;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .domain-details-container {
+      width: 85%;
+    }
+  }
+  
+  .domain-details {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .time-stamp {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    color: #64748b;
+    font-weight: 500;
+  }
+  
+  .domain-logo {
+    margin-right: 8px;
+    width: 30px;
+  }
+  
+  .title {
+    margin-right: 8px;
+    font-family: 'Roboto';
+  }
+  
+  .domain-url {
+    font-family: 'Roboto';
+    color: #64748b;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
   }

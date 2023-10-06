@@ -25,6 +25,8 @@
     align-items: center;
     width: 80%;
     max-width: 1140px;
+    background-color: #4ddf13;
+    box-shadow: 10px 10px 10px 10px red;
   }
 
  
@@ -78,7 +80,14 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-left: 0px;
-    margin-top: 48px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    margin-left: 190px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(29, 28, 28);
+    margin-bottom: 50px;
   }
   
  

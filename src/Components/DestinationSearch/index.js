@@ -14,6 +14,7 @@ function DestinationSearch({ destinationsList }) {
 
   return (
     <div className="destination-search">
+      <h1>DestinationSearch</h1>
     <div className="search-input-containerd">
       <input
         type="text"
