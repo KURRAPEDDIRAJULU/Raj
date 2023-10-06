@@ -1,0 +1,73 @@
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc1a046;
+    min-height: 100vh;
+  }
+  
+  .simple-todos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 90%;
+    padding: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    max-width: 1000px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+
+  .heading-1 {
+    color: #7b42ff;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+
+  
+  .todos-list {
+    padding-left: 0px;
+  }
+
+
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .title {
+    color: #302828;
+    font-family: 'Roboto';
+    font-size: 16px;
+  }
+  .para{
+    color: rgb(80, 11, 240);
+  }
+  
+ 
+  
+  .delete-btn {
+    background-color: #3f14da;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid #ff0b37;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    margin-left: 16px;
+    outline: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,20 @@
+.Todo{
+    background-color: aqua;
+    margin-top: 20px;
+    padding: 50px;
+}
+h1{
+    color: blue;
+    font-family: "Roboto";
+}
+
+.input{
+    width: 180px;
+    padding: 9px;
+
+}
+.task{
+    font-size: 28px;
+    margin-right: 10px;
+    list-style: none;
+}

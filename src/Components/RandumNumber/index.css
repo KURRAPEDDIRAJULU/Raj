@@ -1,0 +1,36 @@
+.wrapper{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 20px rgb(27, 27, 27);
+}
+h2{
+    color: blue;
+    font-size: 40px;
+    font-family: "Roboto";
+}
+h3{
+    font-family: "Roboto";
+    color: rgb(231, 12, 48);
+}
+button{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+}
+button:hover{
+    background-color: rgb(241, 26, 26);
+    color: rgb(247, 244, 244);
+}
+
+p{
+    color: rgb(230, 24, 178);
+    font-size: 20px;
+}
